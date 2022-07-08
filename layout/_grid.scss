@@ -50,9 +50,12 @@
     background-color: hsl(300, 86%, 27%);
     padding: f.rem(16);
 
-    &--green {
-      @extend #{$widget};
+    &.green {
       background-color: rgb(3, 71, 3);
+    }
+
+    &.blue {
+      background-color: blue;
     }
   }
 }
